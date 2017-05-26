@@ -1,0 +1,25 @@
+
+.jumbotron {
+    background-image: url(https://images2.alphacoders.com/785/thumb-1920-7852.jpg);
+    /*background-color: grey;*/
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    margin: auto;
+    vertical-align: middle;
+}
+h3 {
+    
+    opacity: 100%;
+}
+
+#title {
+    color: maroon;
+}
+
+body {
+    
+}

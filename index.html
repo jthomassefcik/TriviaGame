@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class = "container-fluid jumbotron">
+        <div id = "title">
+            <h2>!RANDOM FACTS TRIVIA GAME!</h2>
+            <h4>Time Remaining
+                <p id = "time-remaining"></p>
+            </h4>
+        <div>
+
+        <form id="quiz">
+            <li>
+                <h3>The answer to every question in this quiz is True...</h3>
+                <label><input data-id="Q1" type="radio" name="question-1-answers" id="question-1" value="True">True</label>
+                <label><input data-id="Q1" type="radio" name="question-1-answers" id="question-1" value="False">False</label>
+            </li>
+            <li>
+                <h3>Cotton Candy was invented by a dentist...</h3>
+                <label><input data-id="Q1" type="radio" name="question-2-answers" id="question-2" value="True">True</label>
+                <label><input data-id="Q1" type="radio" name="question-2-answers" id="question-2" value="False">False</label>
+            </li>
+            <li>
+                <h3>The Golden State Fence Company, hired to build a part of the US-Mexico border wall, was fined $5M for hiring illegal immigrant workers...</h3>
+                <label><input data-id="Q1" type="radio" name="question-3-answers" id="question-3" value="True">True</label>
+                <label><input data-id="Q1" type="radio" name="question-3-answers" id="question-3" value="False">False</label>
+            </li>
+            <li>
+                <h3>In 2005, A Chinese company used skin harvested from teh corpses of executed convicts to develop beauty products for sale in Europe...</h3>
+                <label><input data-id="Q1" type="radio" name="question-4-answers" id="question-4" value="True">True</label>
+                <label><input data-id="Q1" type="radio" name="question-4-answers" id="question-4" value="False">False</label>
+            </li>
+            <li>
+                <h3>Charles Darwin ate every animal he discovered...</h3>
+                <label><input data-id="Q1" type="radio" name="question-5-answers" id="question-5" value="True">True</label>
+                <label><input data-id="Q1" type="radio" name="question-5-answers" id="question-5" value="False">False</label>
+            </li>
+            <li>
+                <h3>In 2006, a woman farted on a plane and tried to cover up the smell by lighting matches, causing an emergency landing...</h3>
+                <label><input data-id="Q1" type="radio" name="question-6-answers" id="question-6" value="True">True</label>
+                <label><input data-id="Q1" type="radio" name="question-6-answers" id="question-6" value="False">False</label>
+            </li>
+            
+            <input onclick="grade_quiz()" name = "submit" type="button" value="submit-quiz"></input>
+            
+        </form>
+        
+    </div>
+    <script>
+       
+    </script>
+</body>
+
+</html>
