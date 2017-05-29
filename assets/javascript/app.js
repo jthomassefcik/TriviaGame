@@ -27,29 +27,16 @@ function grade_quiz() {
         if (answerArray[i] == "True") {
             correctAnswers++;
         }
+    clearInterval(intervalID);
+    $("#time-remaining").html("<p>").html("You got " + correctAnswers + " correct!");
     }
-    // if (answers.a1 === "True") {
-    //     correctAnswers++;
-    // }
-    // if (answers.a2 === "True") {
-    //     correctAnswers++;
-    // }
-    // if (answers.a3 === "True") {
-    //     correctAnswers++;
-    // }
-    // if (answers.a4 === "True") {
-    //     correctAnswers++;
-    // }
-    // if (answers.a5 === "True") {
-    //     correctAnswers++;
-    // }
-    // if (answers.a6 === "True") {
-    //     correctAnswers++;
-    // }
 
     console.log(answerArray, correctAnswers);
 }
-    
+
+function end_game() {
+    grade_quiz();
+}
     
     
         
