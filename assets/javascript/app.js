@@ -3,6 +3,10 @@ var time = 30
 var correctAnswers = 0;
 window.onload = function() {
     intervalID = setInterval(count, 1000);
+    if (time<27) {
+        clearInterval(intervalID);
+        grade_quiz();
+    }
 }
 
 function count() {
